@@ -8,6 +8,24 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Classes de utilidade */
+.btn-primary {
+    background-color: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    margin: 0 40px;
+}
+
 /* Navbar */
 
 #navbar {
@@ -26,11 +44,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-}
-
-#navbar .navbar-container .logo {
-    height: 40px;
-    width: auto;
 }
 
 #navbar .navbar-container ul {
@@ -56,6 +69,8 @@ body {
     align-items: center;
     color: white;
     background-image: url("img/showcase.webp");
+    background-position: center;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: color;
 }
@@ -73,4 +88,79 @@ body {
 #showcase .showcase-container p {
     margin: 15px 0;
     font-size: 1.1rem;
+}
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 60px 0;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    width: 200px;
+    list-style: none;
+    justify-content: center;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+}
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 20px;
+}
+
+/* Footer Info */
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+}
+
+.footer-info .footer-info-items {
+    display: flex;
+    list-style: none;
+}
+.footer-info .footer-info-items .footer-info-item{
+    margin: 0 10px;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country .brazil-flag {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
 }
